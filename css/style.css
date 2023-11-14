@@ -35,7 +35,7 @@ h1{
 }
 
 /*creo i pulsanti*/
-.contenier-button{
+.conteiner-button{
     max-width: 920px;
     background-color: white;
     margin: 20px auto 1px auto;
@@ -53,3 +53,40 @@ a{
     color: gray;
 }
 
+/*Main*/
+.conteiner-main{
+    max-width: 920px;
+    background-color: white;
+    margin: 1px auto 20px auto;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    border-radius: 0 0 5px 5px;
+}
+
+ul{
+    list-style-type:none;
+    list-style-position: inside;
+}
+
+.checkmark{
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    font-size: small;
+    height: 16px;
+    width: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;    
+}
+
+.checkmark.verified{
+    color: green;
+    border-color: green;
+}
+
+.checkmark.crossed{
+    color: red;
+    border-color: red;
+}
