@@ -17,7 +17,23 @@ body{
     border-radius: 5px;
     font-size: 16px;
 }
-
+.checkmark{
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    font-size: small;
+    height: 16px;
+    width: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;    
+}
+.label{
+    font-size: 0.7rem;
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+}
 /*Header*/
 header{
     background-color: white;
@@ -63,24 +79,14 @@ a{
     padding-bottom: 10px;
     border-radius: 0 0 5px 5px;
 }
-
+/*creo la lista*/
 ul{
     list-style-type:none;
     list-style-position: inside;
 }
-
-.checkmark{
-    display: inline-block;
-    line-height: 1;
-    text-align: center;
-    font-size: small;
-    height: 16px;
-    width: 16px;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 50%;    
+li{
+    margin-top: 15px;
 }
-
 .checkmark.verified{
     color: green;
     border-color: green;
@@ -89,4 +95,11 @@ ul{
 .checkmark.crossed{
     color: red;
     border-color: red;
+}
+/*creo le etichette*/
+.label.editorial{
+    background-color: palevioletred;
+}
+.label.q1goals{
+    background-color: violet;
 }
