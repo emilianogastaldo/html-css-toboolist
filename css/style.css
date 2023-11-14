@@ -8,28 +8,48 @@
 /*Generics*/
 body{
     background-color: lightcoral;
+    font-family: Arial, sans-serif;
 }
 
 /*Utilities*/
 .push-button{
-    border: 1px solid black;
-    padding: 5px;
+    padding: 8px;
     border-radius: 5px;
+    font-size: 16px;
 }
 /*Header*/
 header{
     background-color: white;
     padding: 10px;
+    
 }
 img{
     vertical-align: middle;
 }
 h1{
-    display: inline;
-    font-family: Arial, sans-serif;
+    display: inline;    
     font-weight: 900;
     font-size: 2.5rem;
     vertical-align: middle
 }
 
-/*nav, creo i pulsanti*/
+/*creo i pulsanti*/
+.contenier-section{
+    max-width: 920px;
+    background-color: white;
+    margin: 20px auto 1px auto;
+    padding: 10px 30px;
+    border-radius: 5px 5px 0 0;
+}
+
+button{    
+    border: none;
+    background-color: blue;
+    color: white;
+}
+a{
+    border: 1px solid gray;
+    text-decoration: none;
+    color: gray;
+}
+
