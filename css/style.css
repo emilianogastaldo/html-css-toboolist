@@ -60,12 +60,12 @@ h1{
     padding: 10px 30px;
     border-radius: 5px 5px 0 0;
 }
-button{    
+button{   /*button Task*/ 
     border: none;
     background-color: blue;
     color: white;
 }
-a{
+a{ /*button section*/
     border: 1px solid gray;
     text-decoration: none;
     color: gray;
