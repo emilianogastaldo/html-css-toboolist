@@ -12,11 +12,6 @@ body{
 }
 
 /*Utilities*/
-.push-button{
-    padding: 8px;
-    border-radius: 5px;
-    font-size: 16px;
-}
 .checkmark{
     display: inline-block;
     line-height: 1;
@@ -60,15 +55,21 @@ h1{
     padding: 10px 30px;
     border-radius: 5px 5px 0 0;
 }
-button{   /*button Task*/ 
-    border: none;
-    background-color: blue;
-    color: white;
+.btn{
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid transparent;
 }
-a{ /*button section*/
-    border: 1px solid gray;
-    text-decoration: none;
+.btn.blue{   /*button Task*/ 
+    color: white;
+    border-color: blue;
+    background-color: blue;
+}
+.btn.white{ /*button section*/
     color: gray;
+    border-color: currentColor;
+    text-decoration: none;
 }
 
 /*Main*/
