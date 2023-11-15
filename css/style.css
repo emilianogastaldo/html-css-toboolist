@@ -14,22 +14,23 @@ body{
 /*Utilities*/
 .checkmark{
     display: inline-block;
-    line-height: 1;
+    line-height: 16px;
     text-align: center;
+    vertical-align: middle;
     font-size: small;
     height: 16px;
     width: 16px;
-    border-width: 1px;
-    border-style: solid;
+    border: 1px solid currentColor;
     border-radius: 50%;    
 }
 .label{
     font-size: 0.7rem;
     padding: 5px;
     border-radius: 25px;
+    background-color: lightcoral;
     color: white;
     text-align: center;
-    line-height: 1;
+    vertical-align: middle;
 }
 /*Header*/
 header{
@@ -95,32 +96,30 @@ li{
 }
 .checkmark.verified{
     color: green;
-    border-color: green;
 }
-
 .checkmark.crossed{
     color: red;
-    border-color: red;
 }
+
 /*creo le etichette*/
-.label.editorial{
+.bg-crimson{
     background-color: crimson;
 }
-.label.q1goals{
+.bg-violet{
     background-color: violet;
 }
-.label.recruiting{
+.bg-orange{
     background-color: orange;
 }
-.label.mobile{
+.bg-gray{
     background-color: gray;
 }
-.label.website{
-    background-color: burlywood;
+.bg-green{
+    background-color: green;
 }
-.label.sales{
-    background-color: blueviolet;
+.bg-blue{
+    background-color: blue;
 }
-.label.editorialspecial{
+.bg-gold{
     background-color: gold;
 }
